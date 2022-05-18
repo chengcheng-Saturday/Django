@@ -2,5 +2,8 @@ from django.apps import AppConfig
 
 
 class TestPltConfig(AppConfig):
-    default_auto_field = 'django.db.models.BigAutoField'
+    # program object name
     name = 'test_plt'
+    verbose_name = '测试平台'
+
+
