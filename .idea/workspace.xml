@@ -1,18 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="755cde06-9e7c-4b83-80a8-f5aad1885771" name="Default Changelist" comment="新建项目" />
+    <list default="true" id="755cde06-9e7c-4b83-80a8-f5aad1885771" name="Default Changelist" comment="字段新增表文件">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto_test_platform/test_plt/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/auto_test_platform/test_plt/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto_test_platform/test_plt/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/auto_test_platform/test_plt/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto_test_platform/test_plt/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/auto_test_platform/test_plt/models.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--follow-tags" />
-        <option name="title" value="Current Branch" />
-      </GitPushTagMode>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -27,7 +55,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="exceleditor.install" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pytest-testing" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="SvnConfiguration">
@@ -41,6 +69,49 @@
       <option name="presentableId" value="Default" />
       <updated>1651641151136</updated>
     </task>
+    <task id="LOCAL-00001" summary="新建项目">
+      <created>1652802479340</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652802479340</updated>
+    </task>
+    <task id="LOCAL-00002" summary="增加项目名称测试平台">
+      <created>1652839606092</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652839606093</updated>
+    </task>
+    <task id="LOCAL-00003" summary="新建内部类，测试项目">
+      <created>1652839641727</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652839641727</updated>
+    </task>
+    <task id="LOCAL-00004" summary="新建测试平台应用">
+      <created>1652839659254</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652839659254</updated>
+    </task>
+    <task id="LOCAL-00005" summary="test_plt_project表新增字段">
+      <created>1652868267155</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652868267155</updated>
+    </task>
+    <task id="LOCAL-00006" summary="字段新增表文件">
+      <created>1652868331760</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1652868331760</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -65,20 +136,30 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新建项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="新建项目" />
+    <MESSAGE value="增加项目名称测试平台" />
+    <MESSAGE value="新建内部类，测试项目" />
+    <MESSAGE value="新建测试平台应用" />
+    <MESSAGE value="test_plt_project表新增字段" />
+    <MESSAGE value="字段新增表文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="字段新增表文件" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="586" y="198" key="#Inspections" timestamp="1654175765653">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1654175765653" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1652801863695">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1652801863695" />
-    <state x="1050" y="324" key="FileChooserDialogImpl" timestamp="1651641451365">
+    <state x="884" y="221" key="FileChooserDialogImpl" timestamp="1653146793044">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1050" y="324" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1651641451365" />
+    <state x="884" y="221" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1653146793044" />
     <state x="434" y="304" key="Github.ShareDialog" timestamp="1652801719495">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -91,13 +172,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="451" y="219" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1652801610451" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1652802192638">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1652888459756">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1652802192638" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1652888459756" />
+    <state x="856" y="254" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1652868313195">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="856" y="254" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1652868313195" />
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1652801934669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1652801934669" />
+    <state width="107" height="38" key="documentation.popup.size" timestamp="1653096835581">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="107" height="38" key="documentation.popup.size/0.0.1920.1040@0.0.1920.1040" timestamp="1653096835581" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1652841737626">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1652841737626" />
   </component>
 </project>
