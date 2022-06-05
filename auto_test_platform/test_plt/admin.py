@@ -3,7 +3,7 @@ from django.contrib.admin import ModelAdmin
 
 from .models import Project
 from .models import ProjectMember
-
+from .models import DeployEnv
 
 # 第一步创建ModelAdmin的继承类
 class ProjectAdmin(ModelAdmin):
@@ -39,6 +39,21 @@ class ProjectMemberAdmin(ModelAdmin):
 
 
 admin.site.register(ProjectMember, ProjectMemberAdmin)
+
+
+class DeployEnvAdmin(ModelAdmin):
+    # 设置指定要显示的列，字段
+    list_display = ['id', 'project', 'name', 'hostname', 'port', 'status', 'memo']
+    # 设置连接字段
+    list_display_links = ['name']
+    # 指定可参与过滤的列
+    list_filter = ['status']
+    search_fields = ['name', 'hostname', 'memo', ]
+    list_per_page = 10
+
+
+admin.site.register(DeployEnv, DeployEnvAdmin)
+
 
 admin.site.site_header = '自动化测试平台后台管理'
 admin.site.site_title = '自动化测试平台后台'

@@ -86,3 +86,27 @@ class ProjectMember(models.Model):
     class Meta:
         verbose_name = '项目成员'
         verbose_name_plural = verbose_name
+
+
+class DeployEnv(models.Model):
+    # 主键
+    id = models.AutoField(primary_key=True)
+    # 项目
+    project = models.ForeignKey(Project, on_delete=models.PROTECT, verbose_name='测试项目')
+    # 名称
+    name = models.CharField(max_length=50, verbose_name='环境名称')
+    # 主机名
+    hostname = models.CharField(max_length=50, verbose_name='主机名', help_text='主机名(IP)')
+    # 端口
+    port = models.IntegerField(verbose_name='端口')
+    # 状态
+    status = models.BooleanField(default=True, verbose_name='状态')
+    # 备忘录
+    memo = models.CharField(max_length=200, verbose_name='备忘录', blank=True, null=True)
+
+    def __str__(self):
+        return self.name
+
+    class Meta:
+        verbose_name = '部署环境'
+        verbose_name_plural = verbose_name
