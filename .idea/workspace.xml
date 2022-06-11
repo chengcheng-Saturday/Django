@@ -25,7 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="755cde06-9e7c-4b83-80a8-f5aad1885771" name="Default Changelist" comment="新增项目成员">
+    <list default="true" id="755cde06-9e7c-4b83-80a8-f5aad1885771" name="Default Changelist" comment="新增部署环境">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auto_test_platform/test_plt/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/auto_test_platform/test_plt/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auto_test_platform/test_plt/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/auto_test_platform/test_plt/models.py" afterDir="false" />
@@ -117,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654388088521</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="新增部署环境">
+      <created>1654432331325</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1654432331325</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,7 +159,8 @@
     <MESSAGE value="test_plt_project表新增字段" />
     <MESSAGE value="字段新增表文件" />
     <MESSAGE value="新增项目成员" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增项目成员" />
+    <MESSAGE value="新增部署环境" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增部署环境" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1654175765653">
@@ -175,14 +183,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="707" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1652801738323" />
-    <state x="451" y="219" key="SettingsEditor" timestamp="1652801610451">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="451" y="219" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1652801610451" />
-    <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1654390010950">
+    <state x="361" y="114" key="SettingsEditor" timestamp="1654432378030">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1654390010950" />
+    <state x="361" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1654432378030" />
+    <state x="451" y="219" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1652801610451" />
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1654432399550">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1654432399550" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1652888459756" />
     <state x="856" y="254" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1652868313195">
       <screen x="0" y="0" width="1920" height="1040" />
